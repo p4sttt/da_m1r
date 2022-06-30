@@ -1,0 +1,51 @@
+p{
+    margin: 0px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;  
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.navElement{
+    margin: 0px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;  
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.6);
+    display: inline;
+    text-decoration: none;
+    transition-duration: 0.48s;
+    transition-timing-function: ease-in-out;
+}
+.navElement:hover{
+    color: rgba(255, 255, 255, 1);
+    transition-duration: 0.16s;
+    transition-timing-function: ease-in-out;
+}
+.buttonText{
+    margin: 0px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+h1{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48.83px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}

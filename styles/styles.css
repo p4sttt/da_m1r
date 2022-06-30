@@ -1,0 +1,88 @@
+@import url(typography.css);
+
+body{
+    background-color: #030303;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.header{
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    padding: 48px 0px;
+    background: rgba(3, 3, 3, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(24px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerContent{
+    width: 1110px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 95px;
+    height: 17px;
+    display: inline;
+}
+.firstScreen{
+    margin-top: 160px;
+    width: 1110px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+}
+.firstScreenContent{
+    width: 635px;
+    height: 312px;
+}
+.firstScreenImg{
+    width: 445px;
+    height: 480px;
+    background-image: url(src/gun.gif);
+}
+.firstScreenTags{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    flex-wrap: nowrap;
+    width: 392px;
+    height: 40px;
+}
+.tagsElement{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+}
+.firstScreenH1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 635px;
+    height: 112px;
+    padding: 0px;
+    margin-top: 16px;
+}
+.button{
+    display: block;
+    width: 332px;
+    height: 56px;
+    background-repeat: no-repeat;
+    padding: 16px 24px;
+    background-image: url(../src/button.svg);
+}
