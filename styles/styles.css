@@ -1,15 +1,17 @@
 @import url(typography.css);
 
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
+
 body{
     background-color: #030303;
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 .header{
     position: fixed;
@@ -83,10 +85,32 @@ body{
     margin-top: 16px;
 }
 .button{
-    display: block;
-    width: 332px;
-    height: 56px;
-    background-repeat: no-repeat;
+    margin: 0px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
     padding: 16px 24px;
-    background-image: url(../src/button.svg);
+    border-radius: 8px;
+    background: linear-gradient(90deg, #33BBFF 0%, #FE33FE 100%);
+    transition-duration: 0.64s;
+    background-size: 200%;
+}
+.button:hover{
+    background-position: right;
+}
+@media (max-width: 1110px) {
+    .firstScreenImg{
+        display: none;
+    }
 }
